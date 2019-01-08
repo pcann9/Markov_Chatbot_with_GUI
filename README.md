@@ -1,4 +1,4 @@
-# Markov_Chatbot_w-_GUI
+# Markov_Chatbot_with_GUI
 In this repository, I create a one-way chatbot using markov chains with a gui. 
 
 

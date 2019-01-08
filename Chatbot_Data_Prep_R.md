@@ -1,6 +1,6 @@
-### markov_chatbot ###
-
-# import packages
+# Chatbot Data Prep in R
+```R
+#import packages
 library(jsonlite)
 
 # import data
@@ -39,5 +39,4 @@ data <- subset(data, select = cols_to_keep)
 
 # export data
 write.csv(x = data, file = "clean_data.txt", row.names = FALSE, col.names = FALSE, quote = FALSE, sep = '\n', fileEncoding = "UTF-8")
-
-
+```
